@@ -173,7 +173,7 @@ Version         : 1.1
     $(".popup-youtube, .popup-vimeo, .popup-gmaps").magnificPopup({
         type: "iframe",
         mainClass: "mfp-fade",
-        removalDelay: 160,
+        removalDelay: 100,
         preloader: false,
         fixedContentPos: false
     });
