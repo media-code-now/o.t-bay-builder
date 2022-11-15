@@ -314,8 +314,9 @@ Hero Section
   line-height:15px;
   text-transform:uppercase;
 }
-
-
+/* ==================
+img Slider
+===================== */
 
 
 
@@ -1186,6 +1187,8 @@ hero css
   position: relative;
 } */
 
+
+
 .hero-single {
   padding-top: 150px;
   padding-bottom: 150px;
@@ -1621,6 +1624,10 @@ emergency css
   }
 
 }
+
+/* =================
+steps
+==================== */
 
 
 /* ===================
