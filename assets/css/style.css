@@ -1628,7 +1628,9 @@ emergency css
 /* =================
 steps
 ==================== */
-
+.fa-check{
+  color: #C5A47E;
+}
 
 /* ===================
 service css 
