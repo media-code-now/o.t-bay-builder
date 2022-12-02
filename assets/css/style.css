@@ -131,6 +131,7 @@ p {
   -webkit-box-shadow: 0px 13px 40px 0px rgba(0, 0, 0, 0.21);
   -moz-box-shadow: 0px 13px 40px 0px rgba(0, 0, 0, 0.21);
   box-shadow: 0px 13px 40px 0px rgba(0, 0, 0, 0.21);
+  z-index: 1000;
 }
 .deployform2 {
   position: fixed;
@@ -149,6 +150,7 @@ p {
   -webkit-box-shadow: 0px 13px 40px 0px rgba(0, 0, 0, 0.21);
   -moz-box-shadow: 0px 13px 40px 0px rgba(0, 0, 0, 0.21);
   box-shadow: 0px 13px 40px 0px rgba(0, 0, 0, 0.21);
+  z-index: 1000;
 }
 .deployform:hover {
   background-color: #000;
@@ -401,41 +403,7 @@ Hero Section
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
 }
-.at-work-process {
-  min-height:100px;
-  position:relative;
-  z-index:4;
-  overflow:hidden;
-  text-align:center;
-      transition-duration: 0.2s;
-    transition-timing-function: ease-in-out;
-}
 
-.at-work-process-text {
-  line-height:40px;
-  transition: all 200ms linear 0s;
-      transition-duration: 0.2s;
-    transition-timing-function: ease-in-out;
-}
-
-.at-work-process:hover .at-work-process-text{
-  -webkit-transform: translateY(-150%);
-  -moz-transform: translateY(-150%);
-  -ms-transform: translateY(-150%);
-  -o-transform: translateY(-150%);
-  transform: translateY(-150%);
-}
-
-.at-work-process:hover .at-work-process-details {
-  z-index: 2;
-  opacity: 1;
-  bottom: 0;
-  -webkit-transition: all 200ms linear;
-  -moz-transition: all 200ms linear;
-  -o-transition: all 200ms linear;
-  -ms-transition: all 200ms linear;
-  transition: all 200ms linear;
-}
 
 .at-work-process-number {
   color:#d6b161;
@@ -445,14 +413,6 @@ Hero Section
   display:block;
 }
 
-.at-work-process-number-text {
-  font-family:Open Sans ;
-  font-size:13px;
-  font-weight:600;
-  color: #000000;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
 
 .at-separator-thick {
   background: #d4d4d4;
@@ -461,15 +421,6 @@ Hero Section
   width:30px;
 }
 
-.at-work-process-details {
-  bottom:-60px;
-  height:100%;
-  left:0;
-  opacity:0;
-  width:100%;
-  position:absolute;
-  display:block;
-}
 .at-work-process-details i {
   color: #d6b161;
   margin-bottom:15px;
@@ -978,10 +929,12 @@ scroll-top css
 /* ===================
 header top css
 ====================== */
-
+.fa-stream{
+  color: #C5A47E;
+}
 .header-top {
   padding: 2px 0 4px 0;
-  background: #DDE7EB;
+  background: #141B1F;
 }
 
 .header-top-wrapper {
@@ -997,7 +950,7 @@ header top css
 }
 
 .header-top-contact ul li a {
-  color: #141B1F;
+  color: #fff;
   font-weight: 400;
   font-size: 15px;
 }
@@ -1052,7 +1005,7 @@ nav menu css
     position: absolute;
     width: 20%;
     height: 101%;
-    background: #DDE7EB;
+    background:#141B1F;
     left: 0;
     z-index: -1;
     -webkit-clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
@@ -1064,7 +1017,7 @@ nav menu css
     padding: 33px 10px 33px 0;
     font-size: 15px;
     font-weight: 500;
-    color: #141B1F;
+    color: #fff;
     letter-spacing: 1.5px;
     text-transform: uppercase;
   }
@@ -1182,7 +1135,7 @@ nav menu css
 }
 
 .navbar.fixed-top {
-  background-color: #fff;
+  background:#141B1F;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.17);
   animation: slide-down 0.7s;
 }
@@ -1289,7 +1242,7 @@ button.navbar-toggler:focus {
     top: 0;
     right: 0;
     left: 0;
-    background-color: #fff;
+    background:#141B1F;
     position: fixed;
   }
 
@@ -1798,6 +1751,7 @@ steps
 .fa-check{
   color: #C5A47E;
 }
+
 
 /* ===================
 service css 
