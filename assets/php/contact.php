@@ -14,9 +14,9 @@
             <p>".$contact_message."</p>";
             
             
- $to = "contact@example.com"; //Replace your real receiving email address
+ $to = "otbaybuilders@gmail.com"; //Replace your real receiving email address
 
- $header = "From:info@example.com \r\n"; //Replace with your real web master email
+ $header = "From:Contact O.T Bay builder  \r\n"; //Replace with your real web master email
  $header .= "MIME-Version: 1.0\r\n";
  $header .= "Content-type: text/html\r\n";
  
